@@ -23,9 +23,5 @@ module Blog
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
-
-    config.generators do |g|
-      g.prepend_to_file 'config/initializers/frozen_string_literal.rb', "# frozen_string_literal: true\n"
-    end
   end
 end
